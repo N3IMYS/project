@@ -5,4 +5,9 @@ package com.roadassistance.roadassistanceapp.presentation.searchinprogress.view;
  */
 
 public interface ISearchInProgressView {
+    void showCancelButton();
+
+    void showCirclesOnMap();
+
+    void showAssistantOnMap();
 }
