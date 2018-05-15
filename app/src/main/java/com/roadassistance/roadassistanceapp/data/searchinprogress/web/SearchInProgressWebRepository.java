@@ -56,4 +56,9 @@ public class SearchInProgressWebRepository implements ISearchInProgressWebReposi
             }
         });
     }
+
+    @Override
+    public void getHelperCoordinates(long userId, ISerachInProgressWebRepositoryCallback callback) {
+
+    }
 }

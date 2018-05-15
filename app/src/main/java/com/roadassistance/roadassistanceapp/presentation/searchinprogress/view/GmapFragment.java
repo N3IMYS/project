@@ -105,7 +105,7 @@ public class GmapFragment extends Fragment implements OnMapReadyCallback, IGps {
                     .builder().target(markerNow.getPosition())
                     .zoom(13).bearing(0).tilt(0).build();
             gMap.moveCamera(CameraUpdateFactory.newCameraPosition(position));
-            Toast toast = Toast.makeText(context, "SOSI", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(context, "located_by_gps", Toast.LENGTH_LONG);
             toast.show();
         } else {
             Toast toast = Toast.makeText(context, "SOSI EBANA", Toast.LENGTH_SHORT);

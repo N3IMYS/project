@@ -7,6 +7,8 @@ import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
+import com.google.firebase.messaging.RemoteMessage;
+import com.google.firebase.messaging.RemoteMessage.Notification;
 import com.roadassistance.roadassistanceapp.business.searchinprogress.ISearchInProgressInteractor;
 import com.roadassistance.roadassistanceapp.business.searchinprogress.ISearchInProgressInteractorCallback;
 
@@ -25,6 +27,9 @@ public class SearchInProgressPresenter extends FirebaseInstanceIdService impleme
     public SearchInProgressPresenter(ISearchInProgressInteractor interactor, Context context) {
         mInteractor = interactor;
         mContext = context;
+    }
+
+    public SearchInProgressPresenter() {
     }
 
     @Override
@@ -62,4 +67,7 @@ public class SearchInProgressPresenter extends FirebaseInstanceIdService impleme
                     }
                 }).create();
     }
+
+
+
 }

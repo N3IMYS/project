@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "764017853694",
-    "firebase_url": "https://roadassistance-5e2aa.firebaseio.com",
-    "project_id": "roadassistance-5e2aa",
-    "storage_bucket": "roadassistance-5e2aa.appspot.com"
+    "project_number": "562062344666",
+    "firebase_url": "https://roadassistanceserver.firebaseio.com",
+    "project_id": "roadassistanceserver",
+    "storage_bucket": "roadassistanceserver.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:764017853694:android:d0858031d053c759",
+        "mobilesdk_app_id": "1:562062344666:android:d0858031d053c759",
         "android_client_info": {
           "package_name": "com.roadassistance.roadassistanceapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "764017853694-pv3fmsbn19ol1c2o3lpf0nbs9345gvil.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.roadassistance.roadassistanceapp",
-            "certificate_hash": "a833a1e26254555e9af27786b925abe5ac794f3e"
-          }
-        },
-        {
-          "client_id": "764017853694-53aqmd1jql7a3agapsjr40nq6gsfvmq3.apps.googleusercontent.com",
+          "client_id": "562062344666-7ndn5n05vd51d7p25nsemmnhjbmvmsep.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBK-iDSGPbBZbBwNPiHF3pGhsdk4AOigLo"
+          "current_key": "AIzaSyDo4hHwZppHVpGRvSEW9iPHN_p7eV8Ws0k"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "764017853694-53aqmd1jql7a3agapsjr40nq6gsfvmq3.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

@@ -33,4 +33,9 @@ public class SearchInProgressInteractor implements ISearchInProgressInteractor {
             }
         });
     }
+
+    @Override
+    public void getHelperCoordinates(long userId, ISearchInProgressInteractorCallback callback) {
+
+    }
 }

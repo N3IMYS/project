@@ -6,4 +6,5 @@ package com.roadassistance.roadassistanceapp.data.searchinprogress.web;
 
 public interface ISearchInProgressWebRepository {
     void sendFBNTokenToServer(String token, ISerachInProgressWebRepositoryCallback callback);
+    void getHelperCoordinates(long userId, ISerachInProgressWebRepositoryCallback callback);
 }
