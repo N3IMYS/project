@@ -108,7 +108,7 @@ public class GmapFragment extends Fragment implements OnMapReadyCallback, IGps {
             Toast toast = Toast.makeText(context, "located_by_gps", Toast.LENGTH_LONG);
             toast.show();
         } else {
-            Toast toast = Toast.makeText(context, "SOSI EBANA", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(context, "--------", Toast.LENGTH_SHORT);
             toast.show();
 
         }
